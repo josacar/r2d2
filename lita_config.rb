@@ -20,8 +20,7 @@ Lita.configure do |config|
   config.adapter.jid = ENV["HIPCHAT_JID"]
   config.adapter.password = ENV["HIPCHAT_PASSWORD"]
   config.adapter.debug = false
-  config.adapter.rooms = ENV["HIPCHAT_ROOMS"]
-  config.adapter.muc_domain = ENV["HIPCHAT_DOMAIN"]
+  config.adapter.rooms = :all
 
   config.redis.url = ENV["REDISTOGO_URL"]
   config.http.port = ENV["HTTP_PORT"]
