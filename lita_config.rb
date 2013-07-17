@@ -1,6 +1,6 @@
 Lita.configure do |config|
   # The name your robot will use.
-  config.robot.name = "R2D2"
+  config.robot.name = "R2D2 Bot"
   config.robot.mention_name = "r2d2"
 
   # The severity of messages to log. Options are:
