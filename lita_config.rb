@@ -15,16 +15,15 @@ Lita.configure do |config|
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
-  config.robot.adapter = :hipchat
+  config.robot.adapter = :campfire
 
-  config.adapter.jid = ENV["HIPCHAT_JID"]
-  config.adapter.password = ENV["HIPCHAT_PASSWORD"]
+  config.adapter.subdomain = ENV["CAMPFIRE_SUBDOMAIN"]
+  config.adapter.apikey = ENV["CAMPFIRE_APIKEY"]
+  config.adapter.rooms = ENV["CAMPFIRE_ROOMS"].split(',')
   config.adapter.debug = false
-  config.adapter.rooms = :all
 
   config.redis.url = ENV["REDISTOGO_URL"]
-  config.http.port = ENV["HTTP_PORT"]
-
+  config.http.port = ENV["PORT"]
 
   config.handlers.google_images.safe_search = :off
 end
