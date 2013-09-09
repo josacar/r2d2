@@ -5,6 +5,7 @@ gem "lita"
 
 # Uncomment to use the Campfire adapter
 gem "lita-campfire", :git => 'https://github.com/josacar/lita-campfire.git'
+#gem 'tinder', :path => '../tinder'
 
 # Uncomment to use the IRC adapter
 # gem "lita-irc"
@@ -12,3 +13,10 @@ gem "lita-campfire", :git => 'https://github.com/josacar/lita-campfire.git'
 # Add handlers to give Lita new functionality.
 gem "lita-google-images"
 gem "lita-karma"
+
+group :test,:development do
+  gem 'debugger'
+  gem 'pry'
+  gem 'pry-debugger'
+  gem 'rb-readline'
+end
