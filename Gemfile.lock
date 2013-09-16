@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/josacar/lita-campfire.git
-  revision: 7d14bccdd719b0593495a209f77094d28c5642c8
+  revision: e799376df680e25394151405e01d08fde65a2672
   specs:
     lita-campfire (0.1)
       lita (~> 2.3)
@@ -26,7 +26,7 @@ GEM
     hashie (2.0.5)
     http_parser.rb (0.5.3)
     json (1.8.0)
-    lita (2.3.0)
+    lita (2.4.0)
       bundler (~> 1.3)
       faraday (~> 0.8.7)
       multi_json (~> 1.7.7)
