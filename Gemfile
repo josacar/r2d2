@@ -5,7 +5,9 @@ gem "lita"
 
 # Uncomment to use the Campfire adapter
 gem "lita-campfire", :git => 'https://github.com/josacar/lita-campfire.git'
-#gem 'tinder', :path => '../tinder'
+# gem 'twitter-stream', :path => '../twitter-stream'
+gem 'tinder', :git => 'https://github.com/josacar/tinder.git'
+# gem 'lita-campfire', :path => '/tmp/lita-campfire'
 
 # Uncomment to use the IRC adapter
 # gem "lita-irc"

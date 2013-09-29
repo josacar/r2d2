@@ -6,6 +6,20 @@ GIT
       lita (~> 2.3)
       tinder (~> 1.9.3)
 
+GIT
+  remote: https://github.com/josacar/tinder.git
+  revision: 2b7b7d6c3c4f65505033fb1468fa14758c7db719
+  specs:
+    tinder (1.9.3)
+      eventmachine (~> 1.0)
+      faraday (~> 0.8)
+      faraday_middleware (~> 0.9)
+      hashie (>= 1.0, < 3)
+      json (~> 1.8.0)
+      mime-types (~> 1.19)
+      multi_json (~> 1.7)
+      twitter-stream (~> 0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -61,15 +75,6 @@ GEM
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
     thor (0.18.1)
-    tinder (1.9.3)
-      eventmachine (~> 1.0)
-      faraday (~> 0.8)
-      faraday_middleware (~> 0.9)
-      hashie (>= 1.0, < 3)
-      json (~> 1.8.0)
-      mime-types (~> 1.19)
-      multi_json (~> 1.7)
-      twitter-stream (~> 0.1)
     twitter-stream (0.1.16)
       eventmachine (>= 0.12.8)
       http_parser.rb (~> 0.5.1)
@@ -87,3 +92,4 @@ DEPENDENCIES
   pry
   pry-debugger
   rb-readline
+  tinder!
