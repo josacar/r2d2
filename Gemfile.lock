@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/josacar/tinder.git
-  revision: 2b7b7d6c3c4f65505033fb1468fa14758c7db719
+  revision: c207c0d05d0838478c38203dd218810e28cb80cf
   specs:
     tinder (1.9.3)
       eventmachine (~> 1.0)
@@ -50,7 +50,7 @@ GEM
       thor (>= 0.18.1)
     lita-google-images (1.0.2)
       lita (~> 2.0)
-    lita-karma (2.0.0)
+    lita-karma (2.0.1)
       lita (~> 2.6)
     method_source (0.8.2)
     mime-types (1.25.1)
