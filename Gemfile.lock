@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/josacar/lita-campfire.git
-  revision: 1b65a59d7590502b3b13dd4adbf90b54798eefcc
+  revision: 4f0bca92008a4346e00628b3892b57f0d7cfa586
   branch: feature/add-tinder-overriding-options
   specs:
     lita-campfire (0.1.2)

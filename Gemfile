@@ -14,7 +14,7 @@ gem "lita"
 gem "lita-google-images"
 gem "lita-karma"
 
-group :test,:development do
+group :development do
   gem 'debugger'
   gem 'pry'
   gem 'pry-debugger'
