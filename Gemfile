@@ -1,10 +1,10 @@
 source "https://rubygems.org"
-ruby '2.1.0'
+ruby '2.0.0'
 
 gem "lita"
 
 # Uncomment to use the Campfire adapter
- gem "lita-campfire", :git => 'https://github.com/josacar/lita-campfire.git', :branch => 'feature/add-tinder-overriding-options'
+gem "lita-campfire", :git => 'https://github.com/josacar/lita-campfire.git', :branch => 'test/new-features'
 # gem "lita-campfire", :path => '../lita-campfire'
 
 # Uncomment to use the IRC adapter

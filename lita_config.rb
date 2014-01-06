@@ -21,7 +21,7 @@ Lita.configure do |config|
   config.adapter.apikey = ENV["CAMPFIRE_APIKEY"]
   config.adapter.rooms = ENV["CAMPFIRE_ROOMS"].split(',')
   config.adapter.debug = false
-  # config.adapter.tinder = { timeout: 9, user_agent: 'lita-campfire' }
+  config.adapter.tinder = { timeout: 4, user_agent: 'lita-campfire' }
 
   config.redis.url = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
