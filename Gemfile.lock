@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/josacar/lita-campfire.git
-  revision: d8d54b145e10b96150e0e37ee4c20e71c306aa7e
+  revision: fdff93eedf1009075c743f2dad3f1441f0d6115f
   branch: test/new-features
   specs:
     lita-campfire (0.1.3)
