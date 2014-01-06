@@ -1,5 +1,7 @@
-PATH
-  remote: ../lita-campfire
+GIT
+  remote: https://github.com/josacar/lita-campfire.git
+  revision: d8d54b145e10b96150e0e37ee4c20e71c306aa7e
+  branch: test/new-features
   specs:
     lita-campfire (0.1.3)
       lita (~> 2.7.0)
