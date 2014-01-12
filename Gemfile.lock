@@ -1,9 +1,8 @@
 GIT
   remote: https://github.com/josacar/lita-campfire.git
-  revision: fdff93eedf1009075c743f2dad3f1441f0d6115f
-  branch: test/new-features
+  revision: b41a00a84c0e100e9a317233dd213a3dbfa3572e
   specs:
-    lita-campfire (0.1.3)
+    lita-campfire (0.1.4)
       lita (~> 2.7.0)
       tinder (~> 1.9.0)
 
