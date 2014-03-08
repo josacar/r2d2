@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby '2.0.0'
 
-gem "lita"
+gem "lita", '~> 3.0'
 
 # Uncomment to use the Campfire adapter
 gem "lita-campfire", :git => 'https://github.com/josacar/lita-campfire.git'
@@ -15,8 +15,10 @@ gem "lita-google-images"
 gem "lita-karma"
 
 group :development do
-  gem 'debugger'
+  platform :mri do
+    gem 'debugger'
+    gem 'pry-debugger'
+    gem 'rb-readline'
+  end
   gem 'pry'
-  gem 'pry-debugger'
-  gem 'rb-readline'
 end
