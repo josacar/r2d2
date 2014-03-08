@@ -4,7 +4,7 @@ ruby '2.0.0'
 gem "lita", '~> 3.0'
 
 # Uncomment to use the Campfire adapter
-gem "lita-campfire", :git => 'https://github.com/josacar/lita-campfire.git'
+gem "lita-campfire"#, :git => 'https://github.com/josacar/lita-campfire.git'
 # gem "lita-campfire", :path => '../lita-campfire'
 
 # Uncomment to use the IRC adapter
