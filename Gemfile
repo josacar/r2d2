@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '2.1.1'
+ruby '2.1.2'
 
 gem "lita", '~> 3.0'
 
@@ -20,5 +20,4 @@ group :development do
     gem 'pry-debugger'
     gem 'rb-readline'
   end
-  gem 'pry'
 end
