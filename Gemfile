@@ -16,8 +16,7 @@ gem "lita-karma"
 
 group :development do
   platform :mri do
-    gem 'debugger'
-    gem 'pry-debugger'
+    gem 'pry-byebug'
     gem 'rb-readline'
   end
 end
