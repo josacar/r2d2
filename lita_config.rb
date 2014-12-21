@@ -17,13 +17,13 @@ Lita.configure do |config|
   # appropriate gem to the Gemfile.
   config.robot.adapter = :campfire
 
-  config.adapter.subdomain = ENV["CAMPFIRE_SUBDOMAIN"]
-  config.adapter.apikey = ENV["CAMPFIRE_APIKEY"]
-  config.adapter.rooms = ENV["CAMPFIRE_ROOMS"].split(',')
-  config.adapter.debug = false
-  config.adapter.tinder = { timeout: 4, user_agent: 'lita-campfire' }
+  config.adapters.campfire.subdomain = ENV["CAMPFIRE_SUBDOMAIN"]
+  config.adapters.campfire.apikey = ENV["CAMPFIRE_APIKEY"]
+  config.adapters.campfire.rooms = ENV["CAMPFIRE_ROOMS"].split(',')
+  config.adapters.campfire.debug = false
+  config.adapters.campfire.tinder_options = { timeout: 4, user_agent: 'lita-campfire' }
 
-  config.redis.url = ENV["REDISTOGO_URL"]
+  config.redis = { url: ENV["REDISTOGO_URL"] }
   config.http.port = ENV["PORT"]
 
   config.handlers.google_images.safe_search = :off

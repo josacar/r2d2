@@ -1,7 +1,7 @@
 source "https://rubygems.org"
-ruby '2.1.2'
+ruby '2.1.5'
 
-gem "lita", '~> 3.0'
+gem "lita", '~> 4.0'
 
 # Uncomment to use the Campfire adapter
 gem "lita-campfire"#, :git => 'https://github.com/josacar/lita-campfire.git'
